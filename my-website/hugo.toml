@@ -1,9 +1,0 @@
-baseURL = 'https://vesna.my'
-languageCode = 'en-us'
-title = 'Maria Khodak'
-theme = 'PaperMod'
-publishDir = '.'
-
-[params]
-  homeInfoParams.Title = "Maria Khodak"
-  homeInfoParams.Content = "Security Researcher and PhD student at Dartmouth College"

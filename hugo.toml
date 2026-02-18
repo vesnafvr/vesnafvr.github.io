@@ -1,0 +1,67 @@
+baseURL = 'https://vesna.my'
+languageCode = 'en-us'
+title = 'Maria Khodak'
+copyright = "Maria Khodak" # Footer copyright.
+theme = 'vortisil'
+pagination.pagerSize =9
+hasCJKLanguage = true
+enableEmoji = true
+disableKinds = ["taxonomy","term"] # DO NOT MODIFY
+
+[params]
+  author = "Maria Khodak"
+  logoImg = false # If false, the site title will display.
+  logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
+  math = true
+  description = "Security Researcher | Graduate Student"
+[params.comments]
+    enabled = true
+[params.meta]
+    description = "Security Researcher and PhD student at Dartmouth College" # Site description
+
+
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "archives"
+    url = "/posts"
+    weight = 3
+
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.116.0"
+
+[markup]
+    [markup.highlight]
+        style = "evergarden"
+        tabWidth = 4
+        codeFences = true
+      guessSyntax = true
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+ 
+  #homepage settings
+  introTitle = "Maria Khodak"
+  introSubtitle = "Security Researcher and PhD student at Dartmouth College"
+
+  #social links
+  github = "vesnafvr"
+  twitter = "vesnafvr"
+  email = "maria.a.khodak@gmail.com"
+  
+  # Enable/disable sections
+  showProjects = true
+  showBlog = true
+  showAbout = true
+  showWorks = false
