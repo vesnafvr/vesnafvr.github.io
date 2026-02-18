@@ -9,7 +9,7 @@ I am a security researcher and PhD student at Dartmouth College advised by Chris
 
 ## Research Interests
 
-At the moment, I am interested in researching attack graphs and formal verification. Currently I am working on an agentic cloud attack graph traversal. I am also interested in machine learning security, specifically data poisoning. Check out my talks on data poisoning and data poisoning visualization.
+At the moment, I am interested in researching attack graphs and formal verification. Currently I am working on an agentic cloud attack graph traversal formally verified using Datalog. I am also interested in machine learning security, specifically data poisoning. Check out my talks on data poisoning and data poisoning visualization.
 
 ## Get In Touch
 
