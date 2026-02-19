@@ -46,6 +46,9 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
         tabWidth = 4
         codeFences = true
       guessSyntax = true
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+               unsafe=true
 
 [outputs]
   home = ["HTML", "JSON"]

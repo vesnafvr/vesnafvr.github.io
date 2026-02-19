@@ -3,6 +3,10 @@ date = '2025-05-18T13:00:49-05:00'
 draft = false
 title = 'Visualizing Data Poisoning With Networks'
 +++
+<div style="text-align: center;">
+{{< youtube 7z6YAgggw-o >}}
+</div>
+
 ## Background
 More and more software applications and APIs have started integrating some flavor of machine learning into their workflow or technology stack to the point where almost everyone is integrating it into their software products. This growth is likely attributed to several factors but the one that stands out is hype. As a result, ML vulnerabilities have become more significant in the present. This has proven to be beyond the typical hype cycle trend which has been great for those looking to exploit additional interesting vulnerabilities.
 
