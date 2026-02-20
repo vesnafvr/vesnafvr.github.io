@@ -1,16 +1,12 @@
 {{ define "main" }}
-
 <section class="hero" id="hero">
-
-    {{ $hero := resources.GetMatch "/assets/imgs/hero.*" }}
-    {{ $heroResize := $hero.Resize "800x webp"}}
-    <img src="{{ $heroResize.RelPermalink }}" alt="Hero Image" class="hero-image" loading="lazy">
-
+    {{ $hero := resources.Get "imgs/hero-new.jpg" }}
+    {{ if $hero }}
+        {{ $heroResize := $hero.Resize "800x webp"}}
+        <img src="{{ $heroResize.RelPermalink }}" alt="Hero Image" class="hero-image" loading="lazy">
+    {{ end }}
 </section>
 
-<div class="bio">
-  <p>I am a security researcher and PhD student at Dartmouth College advised by Sergey Bratus and Christophe Hauser within the Binary Analysis and Systems Security (BASS) group. Feel free to email me at <a href="mailto:maria.a.khodak@gmail.com">maria.a.khodak@gmail.com</a>.</p>
-</div>
 
 <section class="posts" id="posts">
 
