@@ -9,9 +9,10 @@
 
 
 <section class="posts" id="posts">
-
+    <div class="bio">
+    <p>Security researcher and PhD student at Dartmouth College. Feel free to contact me at <a href="mailto:maria.a.khodak@gmail.com">maria.a.khodak@gmail.com</a>.</p>
+    </div>
     <div class="section-title">{{ index $.Site.Data.l10n "posts" }}</div>
-
     <div class="posts-list">
         {{ $posts_pages := where site.RegularPages "Type" "posts" }}
         {{ range first 3 $posts_pages }}
