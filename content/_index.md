@@ -1,7 +1,7 @@
-markdown---
+n---
 title: "Home"
 ---
 
-# Maria Khodak
+Maria Khodak
 
 Security Researcher | PhD student at Dartmouth College
