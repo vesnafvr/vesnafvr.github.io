@@ -14,6 +14,7 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
   logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
   math = true
   description = "Security Researcher | Graduate Student"
+  favicon="/favicon.png"
 [params.comments]
     enabled = true
 [params.meta]
