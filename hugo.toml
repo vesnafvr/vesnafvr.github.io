@@ -36,6 +36,16 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
     url = "/posts"
     weight = 3
 
+[[menus.main]]
+    identifier = "talks"
+    url = "/talks"
+    weight = 4
+
+[[menus.main]]
+    identifier = "cv"
+    url = "/cv.pdf"
+    weight = 5
+
 [module]
     [module.hugoVersion]
         extended = true
